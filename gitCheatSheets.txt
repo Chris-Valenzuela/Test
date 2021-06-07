@@ -25,6 +25,11 @@ Workflow:
         git checkout -b "name" -> is what I used to create the "HOME" branch then i pushd to that
         git remote add origin  <REMOTE_URL> - Sets the new remote
         git remote -v - Verifies the new remote URL
+        git branch - shows you what branches are avail and which you are in
+            git checkout <name>
+            git switch <existing_branch> 
+            git switch -c <non_existing_branch> -If the destination branch does not exist, you have to specify the “-c” option (for “create branch“), otherwise you will get an error message when switching to that branch.
+        
         mv file1 dir1 -> this moves file1 into dir1
         mv file1 file2 -> renames file1 to file2 
 
