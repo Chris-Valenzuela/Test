@@ -37,6 +37,7 @@ Workflow:
         
         mv file1 dir1 -> this moves file1 into dir1
         mv file1 file2 -> renames file1 to file2 
+        type nul > example.txt - Create a new file specify type in command line 
 
     Work PC: 
         git pull origin HOME -> grabs data that has been pushed from user chritsv (home)
