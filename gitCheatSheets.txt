@@ -16,15 +16,20 @@
 
 Workflow:
 
-        git init -> command creates a new Git repository. You can convert an existing project
-            into a Git or initialize a new empty repository
-        git clone -> command to target an existing repository and create a copy/clone of target
         git add . -> add ALL(.) files from working DIR to staging area
         git commit -m "message" -> uploads the staging area to Locla REPO
         git push -> pushes it to the final Repo
         git checkout -b "name" -> is what I used to create the "HOME" branch then i pushd to that
-        git remote add origin  <REMOTE_URL> - Sets the new remote
-        git remote -v - Verifies the new remote URL
+
+        git clone -> command to target an existing repository and create a copy/clone of target:
+
+            git init -> command creates a new Git repository. You can convert an existing project
+                into a Git or initialize a new empty repository
+            git remote add origin  <REMOTE_URL> - Sets the new remote  (add the URL to that repository)
+            git remote -v - Verifies the new remote URL
+            git fetch (fetch all branches from that URL to your local repository)
+            git checkout (create all the files of the main branch in your working tree)
+        
         git branch - shows you what branches are avail and which you are in
             git checkout <name>
             git switch <existing_branch> 
