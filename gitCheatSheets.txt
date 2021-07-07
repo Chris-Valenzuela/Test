@@ -34,7 +34,9 @@ Workflow:
             git checkout <name>
             git switch <existing_branch> 
             git switch -c <non_existing_branch> -If the destination branch does not exist, you have to specify the “-c” option (for “create branch“), otherwise you will get an error message when switching to that branch.
-        
+            git branch -m <oldname> <newname> - rename a branch 
+            git branch -d <name> - remove a branch 
+
         mv file1 dir1 -> this moves file1 into dir1
         mv file1 file2 -> renames file1 to file2 
         type nul > example.txt - Create a new file specify type in command line 
